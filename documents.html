@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h3{
+        align-items: center;
+        margin: 5vh;
+        color: black;
+        font: 1em sans-serif;
+    }
+    .documents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #document {
+ height: 15vh;
+ width: 25vw;
+  text-align: center;
+  padding-top: 2px;
+  gap: 1vw;                       
+  padding: 1vh 2vw;
+  background-color: #009688;
+  color: white;
+  margin: 2vw;
+  font-size: 1.8vw;             
+  border-radius: 0.5vw;
+  box-shadow: 0 0.5vh 1vh rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+header {
+  height: 12vh;
+  padding: 0 2vw;
+  background: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1000;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 4vh 2vw;
+}
+
+footer a {
+  color: #ff9800;
+  text-decoration: none;
+  margin: 0 1vw;
+  font-size: 1.5vw;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+</style>
+<body>
+    <header>
+  <h1>Helping Hands</h1>
+  </header>
+    <div class="documents">
+        <h3>OUR TRUSTED DOCUMENTS</h3>
+        <div id="document"> REG CERTIFICATE</div>
+        <div id="document"> 12a CERTIFICATE</div>
+        <div id="document"> 80g CERTIFICATE</div>
+         <div id="document"> Pan card</div>
+        <div id="document"> Tan card</div>
+    </div>
+    <footer>
+  <p>© 2025 Helping Hands NGO</p>
+  <p>
+    <a href="#hero">Home</a> | 
+    <a href="#about">About</a> | 
+    <a href="#warriors">Warriors</a> | 
+    <a href="#activities">Activities</a> | 
+    <a href="#donate">Donate</a>
+    email:namityadav12@gmail.comm
+    location:mumbai
+  </p>
+    
+</footer>
+</body>
+</html>
