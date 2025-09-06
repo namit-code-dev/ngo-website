@@ -363,13 +363,18 @@ header h1 {
     font-size: 5vw;
   }
   nav a {
-    font-size: 1.5vw;
-    margin-left: 3vw;
+ font-size: 1.7vw;
+  margin-left: 1vw;
+  }
+  #about>p{
+    font-size: 3.5vw;
   }
   #section p{
     font-size: 3vw;
   }
-  
+  section h2{
+    font-size: 4vw;
+  }
 .donate-form {
     width: 100%;
   }
